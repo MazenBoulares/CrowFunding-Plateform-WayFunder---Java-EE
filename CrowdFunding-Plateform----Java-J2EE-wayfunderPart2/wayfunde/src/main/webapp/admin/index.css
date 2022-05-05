@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+a {
+	text-decoration:none;
+	color:#fff;
+}
+a:hover{
+	color:#000;
+}
+h1,h2{
+	margin-top:10px;
+	font-family:poppins,sans-serif;
+	text-align:center;
+	font-weight:bold;
+}
+img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;	
+}
+button{
+	cursor:auto !important;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #4CAF50;
+}

@@ -1,0 +1,287 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{ margin:0;
+  font-family: 'Poppins', sans-serif;
+  position:relative;
+  height:100%;
+}
+
+/******************************** nav *******************************/
+nav{
+background-color: white;
+position:fixed;
+height:70px;
+width:100%;
+z-index: 3;
+display:flex;
+justify-content: space-between;
+padding-right:10%;
+}
+nav img{
+  width:40%;
+  margin-left: 2em;
+}
+nav .wrapper1{
+  display:flex;
+  align-items: center;
+
+  
+
+}
+nav .wrapper2{
+  display:flex;
+  align-items: center;
+
+}
+
+nav a{
+  text-decoration: none;
+  color:black;
+  margin-right:2Em;
+}
+nav button{
+background-color: #2ECC71;
+  padding:1em 3em 1EM 3Em;
+  border:none;
+  color:white;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-right:2EM;
+}
+
+
+
+
+/*Section6*/
+.section6{
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.section6 hr{
+  width:150px;
+  background-color: orange;
+  height:1Px;
+  border:none;
+  margin-top: 3Em;
+  margin-bottom: 3Em;
+  
+ 
+}
+
+.section6 .container2{
+ /* display:grid;
+  grid-template-columns: auto auto;
+  text-align:left;
+  justify-content: center;
+*/
+
+margin-top: 5Em;
+margin-bottom: 5em;
+display: grid;
+justify-content: center;
+grid-template-columns: 50% 50%;
+box-sizing: border-box;
+
+text-align:left;
+  
+
+ 
+
+ 
+
+
+}
+
+.section6 .container2 h1{
+  font-size:44Px;
+font-weight:600;
+letter-spacing: 0.5px;
+margin-top:0;
+margin-bottom: 0;
+}
+.section6 .container2 h2{
+  font-size:33Px;
+font-weight:600;
+letter-spacing: 0.5px;
+margin-top:0;
+margin-bottom: 0;
+}
+
+.section6 .container2 p {
+  color: #8b8b99;
+font-size:16px;
+margin-top: 0.6em;
+}
+
+.section6 .container2  input {
+  outline:none;
+  width: 70%;
+  padding:20px;
+  color:gray;
+  margin-bottom:2em;
+  border-radius: 10px;
+  padding-right: 2EM;
+  border:solid lightgray 1px;
+
+}
+.section6 .container2  button {
+  background-color: #2ECC71;
+  padding:1.4em 3em 1.4EM 3Em;
+  border:none;
+  color:white;
+  border-radius: 5px;
+  font-weight: 600;
+  
+}
+
+.section6 .wrapper1 p:first-of-type, .section6 .wrapper2 p:first-of-type{
+  color:#2ECC71;
+font-size: 24px;
+font-family: 'Caveat', cursive;
+margin-bottom:0;
+}
+
+ /*.section6 .wrapper1  {
+ 
+  margin-right:30%;
+
+}
+.section6 .wrapper2{
+  margin-left:30%;
+}*/
+.section6 .wrapper1{
+  padding-right: 7Em;
+}
+
+.menu a{
+  text-decoration: none;
+  color:black;
+}
+.menu hr{
+  width:90%;
+}
+.menu{
+  text-align: left;
+  margin:0;
+  width:170px;
+  background-color: white;
+  
+
+  position:absolute;
+  top:50px;
+  right:400px;
+  border-top:#2ECC71 solid 2px;
+  padding:1Em;
+ display:none;
+ 
+
+}
+
+.bouta{
+  padding-bottom: 10px;
+}
+.bouta:hover + .menu{
+  display: block;
+
+}
+.menu:hover{
+  display: block;
+}
+
+nav .container{
+ display:inline-block;
+
+}
+
+@media screen and (max-width:884px)
+{
+  .section2{
+    grid-template-columns: auto;
+  }
+  .container3{
+    grid-template-columns: auto;
+  }
+  .wrapper5{
+    grid-template-columns: auto;
+  }
+  .wrapper5 div{
+    padding:0;
+  }
+  .section6 .container2{
+    grid-template-columns: 70%;
+  }
+
+
+/*gyjtyjftyjtyjtyfjytjyftjfytj*/ 
+
+
+.containerx{
+  text-align: center;
+  
+  height:17em;
+  
+  width:85%;
+  
+  
+  padding-top:3em;
+  padding-bottom:0;
+  padding-right:2em;
+  padding-left:2em;
+  
+  }
+  
+  
+  
+  
+  
+  
+  .containerx h1{
+  color: #65656f;
+  letter-spacing: 8px;
+  Font-weight: 600;
+  font-size: 1EM;
+  
+  }
+  .containerx p{
+  color: rgba(0, 0, 0, 0.538);
+  font-size: 12px;
+  Letter-Spacing: 0.5px;
+  
+  Line-Height: 1.6;
+  }
+  
+  .containerx button{
+    margin-top:1.5em;
+    background: none;
+    border: 2px solid #1c8748;
+    padding:1em 3em 1EM 3Em;
+    
+    color:#25a45a;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-right:2EM;
+    box-shadow: 10px 10px 1px 1px rgba(145, 145, 215, 0.2);
+  }
+  
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

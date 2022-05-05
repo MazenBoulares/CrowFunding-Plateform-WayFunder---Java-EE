@@ -1,0 +1,38 @@
+main{
+    
+}
+
+#myinput{
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;}
+.project-list{
+    margin-top:2em; 
+    margin-right:auto;
+    margin-left:auto;
+    display:grid;
+    grid-template-columns: auto auto auto auto ;
+    row-gap: 3em;
+   
+   gap:60Px;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.budget{
+color:#2ECC71;
+}
+
+.card-link{
+    color:#2eccc1;
+}
+.card-link:hover{
+    color:#054e23;
+}
+
+.cardi{
+   border-radius: 7px;
+    border:2px #2ecccc solid;
+}
+

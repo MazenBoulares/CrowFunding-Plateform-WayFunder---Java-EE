@@ -5,7 +5,7 @@ A Fully Functional Crowdfunding plateform (kickstarter clone)
 
 Built with: 
 
-HTML,  
+HTML, 
 CSS, 
 JavaScript, 
 java Enterprise edition
